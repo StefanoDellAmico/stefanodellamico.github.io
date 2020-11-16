@@ -1,0 +1,22 @@
+.repos{
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    left: 42.5%;
+    right: 24.5%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.repos:hover{
+    transition: 0.5s all ease-in-out;
+    background-color: rgba(44, 62, 80,1.0);
+    cursor: pointer;
+}
+.repos img{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

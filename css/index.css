@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(87, 101, 116,1.0);
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    left:0%;
+    top:0%;
+    background-color: rgba(52, 73, 94,1.0);
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+h1{
+    left:5%;
+}
+p, a{
+    font-family: "Franklin Gothic Medium";
+}
+header nav{
+    position: relative;
+    left:75%;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav, header  h1{
+    position: relative;
+    display: inline-block;
+    top:-30%;
+}
+
+header nav ul li:hover{
+    transition: 0.5s all ease-in-out;
+    background-color: rgba(44, 62, 80,1.0);
+    cursor: pointer;
+}
+header ,#form{
+    display: inline-block;
+}
+#form{
+    position: fixed;
+    top: 15%;
+    left:0%;
+    width: 100%;
+    height: 60%;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(52, 73, 94,1.0);
+}
+#form p{
+    font-size: 20px;
+}
+#container{
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: auto;
+}
+footer{
+    position: fixed;
+    top: 80%;
+    left:0%;
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid black;
+    background-color: rgba(52, 73, 94,1.0);
+}
+footer form{
+    position: relative;
+    left:44.3%;
+}
